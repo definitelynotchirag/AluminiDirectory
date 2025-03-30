@@ -210,6 +210,7 @@ export default function Home() {
         setAlumniData(alumni);
         setFilteredData(alumni);
       } catch (error) {
+        console.log(error);
         console.error('Failed to fetch data:', error);
       }
     };
