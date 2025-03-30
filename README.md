@@ -1,7 +1,5 @@
 # AlumniDirectory
 
-## Overview
-
 This project is an alumni directory website that displays profiles of graduates from my college. The application uses Next.js and features a LinkedIn-inspired design to showcase alumni information, their current positions, education details, and contact information.
 
 ## Features
