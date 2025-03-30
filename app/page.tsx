@@ -205,7 +205,7 @@ export default function Home() {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const { data } = await axios.get('http://localhost:3001/api/scrap');
+        const { data } = await axios.get('/api/scrap');
         const alumni = data.data.filter(isAlumni);
         setAlumniData(alumni);
         setFilteredData(alumni);
