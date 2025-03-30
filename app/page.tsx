@@ -91,16 +91,16 @@ const isAlumni = (person: Alumni) => {
     }
 
     // Debug logging
-    if (isAlum) {
-      console.log(`${person.full_name} is alumni:`, {
-        edu1: education1,
-        end1: person.education_end_1,
-        start1: person.education_start_1,
-        edu2: education2,
-        end2: person.education_end_2,
-        start2: person.education_start_2
-      });
-    }
+    // if (isAlum) {
+    //   console.log(`${person.full_name} is alumni:`, {
+    //     edu1: education1,
+    //     end1: person.education_end_1,
+    //     start1: person.education_start_1,
+    //     edu2: education2,
+    //     end2: person.education_end_2,
+    //     start2: person.education_start_2
+    //   });
+    // }
 
     return isAlum;
   }
