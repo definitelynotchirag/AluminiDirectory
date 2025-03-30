@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "AluminiConnect",
-  description: "A directory for PICT Alumini",
+  title: "Alumnis | PICT",
+  description: "A directory for PICT Alumni",
 };
 
 export default function RootLayout({
